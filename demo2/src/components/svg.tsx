@@ -5,7 +5,7 @@ import {
 	StyleSheet
 } from 'react-native'
 import SvgUri from 'react-native-svg-uri'
-import svgs from '../assets/svgs'
+import svgs from '../assets/svgs.js'
 
 interface Props {
 	size?: number,
@@ -17,7 +17,6 @@ interface Props {
 export default class Svg extends React.Component<Props> {
 	render() {
 		let { size = 20, color = '#222', icon = 'return', style } = this.props
-
 		return (
 			<View style={style}>
 				<SvgUri

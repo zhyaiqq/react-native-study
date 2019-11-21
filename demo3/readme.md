@@ -5,3 +5,7 @@
 
 ### 提出问题
 1. 为什么每次初始化一个项目都可以运行成功，但是安装一些库（如`react-navigation` `react-native-svg`）后就运行不成功了 ???
+
+
+### 内容
+- `src/components/refreshListView.js`里面梳理了一下封装refreshListView组件的逻辑
